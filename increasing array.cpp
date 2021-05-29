@@ -20,7 +20,7 @@ int main()
     	if(a[i-1]>a[i])
     	{
     		moves+=a[i-1]-a[i];
-    		a[i]=a[i-1];//do this becoz next element should be increasing 
+    		a[i]=a[i-1];//do this becoz next element should be increasing and increasing means the next element should be equal or greater than previous
     	}
 
     }
