@@ -14,7 +14,7 @@ int main()
     {
         cin>>a>>b;
         if((a+b)%3==0){
-            if((a<b/2)||b<a/2){
+            if((a<b/2)||b<a/2){//if coin has to be removed in 3-1 pattern than a<b/3||b<a/3...
             cout<<"NO"<<endl;}
             else{
                 cout<<"YES"<<endl;
